@@ -1,0 +1,42 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f3f4f6; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .header-balance {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 4px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);;
+    margin: 2px solid black;
+  }
+  
+  .header-balance .title {
+    font-size: 1.125rem;
+    font-weight: bolder;
+    background-color: #16a34a;
+    text-align: center;
+    border-radius: 2px;
+    color: white
+  }
+  
+  .header-balance .amount {
+    font-size: 1.25rem;
+    color: black; 
+    font-weight: 600;
+    background: white;
+  }
+  
+  .header-button {
+    background-color: #16a34a; 
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  

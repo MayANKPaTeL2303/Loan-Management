@@ -1,0 +1,51 @@
+
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.loan-table th,
+.loan-table td {
+  text-align: left;
+  padding: 12px 15px;
+}
+
+.loan-table th {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+}
+
+.loan-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.loan-table tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s;
+}
+
+.loan-table .status-approved {
+  color: #28a745; 
+  font-weight: bold;
+}
+
+.loan-table .status-rejected {
+  color: #dc3545; 
+  font-weight: bold;
+}
+
+.loan-table .status-pending {
+  color: #ffc107; 
+  font-weight: bold;
+}
+
+.loan-table .status-verified {
+  color: #17a2b8; 
+  font-weight: bold;
+}
